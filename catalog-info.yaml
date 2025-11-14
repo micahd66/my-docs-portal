@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-docs-portal
+  title: My Docs Portal
+  description: "Markdown-powered docs site rendered by Backstage TechDocs"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  owner: user:default/micah
+  lifecycle: experimental
